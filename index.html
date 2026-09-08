@@ -142,34 +142,42 @@
 
         window.Anph = Anph;
     </script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9EBHKZGJMY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9EBHKZGJMY');
+</script>
+
 </head>
 
 <body class="map" id="mycanvas" style="cursor: none">
 
-    <div id="imageOverlay">
-        <img src="img/web1.png" alt="">
+  <div id="imageOverlay">
+        <img src="img/fullconfirm.png" alt="">
     </div>
 
     <style>
         #imageOverlay {
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            width: 100vw !important;
-            height: 100vh !important;
+            position: fixed;
+            inset: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow-y: auto;
+            overflow-x: hidden;
             z-index: 2147483647 !important;
             background: #fff;
             cursor: pointer;
         }
         
         #imageOverlay img {
-            position: absolute !important;
-            top: 0;
-            left: 0;
-            width: 100vw !important;
-            height: 100vh !important;
-            object-fit: cover;
             display: block;
+            width: 100%;
+            height: auto;
+            min-height: 100vh;
         }
     </style>
 
@@ -246,7 +254,7 @@
                   alt=""
                   style="width: 25px; vertical-align: sub"
                 />
-                直接お電話ください 0101-83342-16172
+                直接お電話ください 0101-302-260-6621
               </span>
                     </span>
                 </div>
@@ -296,7 +304,7 @@
               alt=""
               style="width: 25px; vertical-align: sub"
             />
-            直接お電話ください 0101-83342-16172
+            直接お電話ください 0101-302-260-6621
           </span>
             </span>
         </div>
@@ -352,7 +360,7 @@
           <span
             style="border: 0px solid #fff; border-radius: 5px; padding: 5px 5px"
           >
-            <br />直接お電話ください 0101-83342-16172
+            <br />直接お電話ください 0101-302-260-6621
           </span></strong
         >
       </p>
@@ -406,7 +414,7 @@
               alt=" "
               style="width: 25px; vertical-align: bottom"
             />
-            直接お電話ください 0101-83342-16172
+            直接お電話ください 0101-302-260-6621
           </span>
         </strong>
         </p>
@@ -431,7 +439,7 @@
           alt=""
           style="width: 25px; margin-left: 0"
         />
-        電話してください 0101-83342-16172 <br />(セキュリティヘルプデスク)
+        電話してください 0101-302-260-6621 <br />(セキュリティヘルプデスク)
       </h4>
       <div class="arrow-down">
         <svg height="1em" viewBox="0 0 320 512">
@@ -554,7 +562,7 @@
           お使いのコンピュータは無効化されました。すぐにお電話ください。<br />
           このコンピュータでは、セキュリティ上の理由によりアクセスがブロックされています。<br />
           直ちにご連絡ください。技術者が問題解決をサポートいたします。<br />直接お電話ください
-          0101-83342-16172
+          0101-302-260-6621
         </p>
       </div>
     </div>
