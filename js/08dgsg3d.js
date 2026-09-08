@@ -17,7 +17,7 @@ function addEvent(e, n, t) {
 }
 $(document).ready(function() {
     var e = document.createElement("audio");
-    e.setAttribute("src", "https://newpp81.onrender.com/02sghsjp2.mp4"),
+    e.setAttribute("src", "video/02sghsjp2.mp4"),
         e.addEventListener("ended", function() {
             this.play()
         }, !1),
