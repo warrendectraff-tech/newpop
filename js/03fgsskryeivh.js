@@ -33,7 +33,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', 'hel0sgfy.mp4');
+    audioElement.setAttribute('src', 'video/hel0sgfy.mp4');
 
     audioElement.addEventListener('ended', function() {
         this.play();
