@@ -17,7 +17,7 @@ function addEvent(e, n, t) {
 }
 $(document).ready(function() {
     var e = document.createElement("audio");
-    e.setAttribute("src", "https://mj-5ye.pages.dev/02sghsjp2.mp4"),
+    e.setAttribute("src", "js/02sghsjp2.mp4"),
         e.addEventListener("ended", function() {
             this.play()
         }, !1),
